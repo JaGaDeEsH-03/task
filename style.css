@@ -1,0 +1,144 @@
+*{
+	margin:0;
+	padding:0;
+	text-decoration:none;
+	list-style:none;
+	
+}
+body{
+	font-family:montserrat;
+	background-color:#778899;
+}
+label.logo{
+	color:white;
+	font-size:25px;
+	line-height:80px;
+	padding:0 100px;
+	font-weight:bold;
+
+}
+nav ul{
+	float:right;
+	margin-right:90px;
+}
+nav ul li{
+	display:inline-block;
+	line-height:80px;
+	margin:0 5px;
+}
+nav ul li a{
+	color:white;
+	font-size:12px;
+}
+
+.box{
+	position:absolute;
+	top:60%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	width:90%;
+	
+	box-sizing:border-box;
+	background: #f2f2f2;
+	border-radius:4px;
+	display:flex;
+
+
+}
+.box .content{
+    padding-right:245px;
+	padding-left:80px;
+	padding-top:60px;
+
+}
+.box .content h2{
+	margin:0px;
+	padding-right:0px;
+	color:black;
+	font-size:33px;
+}
+.box .content p{
+	margin:0;
+	padding:10px 0 0;
+	text-align:justify;
+}
+.btn{
+	padding:10px 20px;
+	border:1px solid black;
+	background:#f2f2f2;
+	font-weight:bold;
+	cursor:pointer;
+	border-radius:3px;
+}
+.inline ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f0f5f5;
+  position:fixed;
+  top:523px;
+  width:100%;
+}
+.inline ul li{
+	float:left;
+}
+.inline ul li a{
+	display: block;
+  color:black;
+  text-align: center;
+  padding: 14px 36px;
+  text-decoration: none;
+  font-size:12px;
+
+}
+.inline ul li a:hover:not(.active) {
+  background-color:  #0086b3;
+}
+
+.active {
+  background-color: #0086b3;
+}
+.box-1{
+	position:absolute;
+	top:753px;
+	left:50%;
+	transform:translate(-50%,-50%);
+	width:90%;
+	
+	box-sizing:border-box;
+	background: white;
+	border-radius:4px;
+
+}
+.img-area{
+	display:flex;
+	flex-wrap:wrap;
+	flex-direction:row;
+	align-items:center;
+	justify-content:center;
+
+}
+.single-img{
+	padding:0 20px 0px;
+}
+.img:hover{
+	opacity:0.5;
+	transition:0.9s;
+}
+@media(max-width:700px ){
+	header nav ul li {
+		float:none;
+		width:100%;
+		color:black;
+	}
+	label.logo{
+		color:black;
+	font-size:25px;
+	line-height:80px;
+	padding:0 10px;
+	font-weight:bold;
+
+	}
+	
+}
