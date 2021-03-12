@@ -1,0 +1,169 @@
+*{
+	margin:0;
+	padding:0;
+	
+}
+body{
+	background-color:#778899;
+	font-family:cursive;
+}
+#pro{
+	color:white;
+	text-indent:50px;
+}
+h3{
+	font-size:25px;
+	font-weight:bold;
+	position:relative;
+	top:28px;
+}
+nav ul{
+	margin:0px;
+	padding:0px 40px 0 0;
+	display:flex;
+	justify-content: flex-end;
+	list-style:none;
+}
+nav ul li{
+	padding:10px 20px;
+
+}
+nav ul li a{
+	text-decoration:none;
+	color:white;
+	font-size:12px;
+}
+nav ul li:hover{
+	background-color:grey;
+	transition:0.1s;
+
+}
+@media (max-width:767px ){
+	nav ul{
+		height:250px;
+		flex-direction:column;
+		text-align:center;
+	}
+}
+.box1{
+	width:1250px;
+	box-sizing:border-box;
+	background: #f2f2f2;
+	border-radius:4px;
+	padding:20px ;
+	position:absolute;
+	left:50px;
+	top:110px
+}
+.box{
+		
+	
+	display:flex;
+	flex-direction:row;
+	
+}
+.box .content{
+    text-align:left;
+    margin:60px;
+    padding-right:80px;
+}
+.btn{
+	padding:10px 20px;
+	border:1px solid black;
+	background:#f2f2f2;
+	font-weight:bold;
+	cursor:pointer;
+	border-radius:3px;
+}
+.images{
+	margin:0;
+	padding:0;
+}
+@media (max-width:767px){
+	.box{
+		flex-direction: column;
+	}
+	.box1{
+		width:300px;
+		position:absolute;
+		left:30px;
+		top:70px;
+	}
+	img{
+		max-width:100%;
+	}
+	.inline ul li{
+		position:absolute;
+		top:900px;
+		flex-direction: column;
+	}
+	.img-area{
+	position:absolute;
+	top:420px;
+    }
+    .single-img{
+    	padding:40px;
+    }
+    
+
+
+
+    
+}
+.inline ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f0f5f5;
+  position:absolute;
+  top:660px;
+  left:50px;
+  width:92.8%;
+}
+.inline ul li{
+	float:left;
+}
+.inline ul li a{
+	display: block;
+  color:black;
+  text-align: center;
+  padding: 14px 36px;
+  text-decoration: none;
+  font-size:12px;
+
+}
+.inline ul li a:hover:not(.active) {
+  background-color:  #0086b3;
+}
+
+.active {
+  background-color: #0086b3;
+}
+.box2{
+	position:absolute;
+	top:810px;
+	left:50%;
+	transform:translate(-50%,-50%);
+	width:93%;
+	
+	box-sizing:border-box;
+	background: white;
+	border-radius:4px;
+
+}
+.img-area{
+	display:flex;
+	flex-wrap:wrap;
+	flex-direction:row;
+	align-items:center;
+	justify-content:center;
+
+}
+.single-img{
+	padding:0 20px 0px;
+}
+.img:hover{
+	opacity:0.5;
+	transition:0.9s;
+}
